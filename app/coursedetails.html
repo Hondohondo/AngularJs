@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--(courseApp)this is the module that runs this page-->
+<html lang="en" ng-app="courseApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Course Registration</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+
+
+<div class="container">
+
+    <div class="navbar">
+        <ul class="nav">
+                <li>Courses</li>
+        </ul>
+    </div>
+<!--  this Coursecontroller responsible for handling info about courses-->
+    <div ng-controller="CourseController" style="padding-left: 20px; padding-right: 20px">
+        <img ng-src="{{course.imageUrl}}" alt="Angular">
+        <div class="row">
+            <div class="span1">
+                <h2>{{course.name}}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span2">
+                <div><strong>Date:</strong> {{course.date}}</div>
+                <div><strong>ID:</strong> {{course.id}}</div>
+
+            </div>
+            <div class="span3">
+                <address>
+                    <strong>Found at:</strong> <br>
+                    {{course.location.address}} <br>
+                    {{course.location.where}} <br>
+                </address>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+</body>
+
+
+<!--angular library-->
+<script src="lib/angular/angular.js"></script>
+<!--starting script that loads up the module for the application-->
+<script src="js/app.js"></script>
+<!--Controller-->
+<script src="js/controllers/CourseController.js"></script>
+
+</html>
