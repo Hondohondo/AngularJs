@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>Course Registration</title>
     <link rel="stylesheet" href="css/app.css">
+
 </head>
 <body>
 
@@ -41,11 +42,42 @@
             </div>
         </div>
 
+        <hr>
+
+        <h3>Sessions</h3>
+        <ul>
+            <li ng-repeat="session in course.sessions">
+
+                <div class="row session">
+                    <div class="span0 well votingWidget">
+                        <div class="votingButton" ng-click="upVoteSession(session)">
+                            <i class="icon-chevron-up icon-white"> <strong>&gt;</strong></i> <br>
+<!--                            {{session.upVoteCount}}-->
+                        </div>
+                        <div class="badge badge-inverse">
+                            <div>{{session.upVoteCount}}</div>
+                        </div>
+                        <div class="votingButton" ng-click="downVoteSession(session)">
+                            <div class="icon-chevron-down"> <strong>&lt;</strong>  </div>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <h4 class="title">{{session.name}}</h4>
+                        <h6>{{session.creatorName}}</h6>
+                        <span>Duration: {{session.duration}}</span><br>
+                        <span>Level: {{session.level}}</span><br>
+                        <span>Duration: {{session.duration}}</span>
+                        <p>{{session.abstract}}</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
 
     </div>
 </div>
 
-</body>
+
 
 
 <!--angular library-->
@@ -55,4 +87,5 @@
 <!--Controller-->
 <script src="js/controllers/CourseController.js"></script>
 
+</body>
 </html>
