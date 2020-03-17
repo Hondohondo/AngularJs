@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a424be1-c255-4b33-b938-66681413f55d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/controllers/EditCourseController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/filters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/angular/angular-sanitize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/newcourse.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/coursedetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/coursedetails.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/controllers/CourseController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/controllers/CourseController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -26,13 +30,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Yv6hL74EFHwyPmLWJxLeqxkBJp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -62,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583810838806</updated>
-      <workItem from="1583810840788" duration="18721000" />
+      <workItem from="1583810840788" duration="33085000" />
+      <workItem from="1584120099911" duration="89000" />
     </task>
     <servers />
   </component>
@@ -72,11 +80,18 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.bat" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="366" y="74" key="#Inspections" timestamp="1584040760633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="366" y="74" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1584040760633" />
+    <state x="549" y="155" key="FileChooserDialogImpl" timestamp="1584120145370">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584120145370" />
     <state x="430" y="190" key="run.anything.popup" timestamp="1584041455629">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

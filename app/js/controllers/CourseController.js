@@ -4,6 +4,15 @@
 //the scope populate the content that's going to be needed by the view
 courseApp.controller('CourseController',
     function CourseController($scope) {
+
+
+    // $scope.snippet = '<span style="color:red">Hi there</span>';
+    //     $scope.boolValue = false;
+    //     $scope.mystyle = {color: 'gold'};
+    //     $scope.myclass = "blue";
+    //     $scope.buttonDisabled = true;
+        $scope.sortorder = 'name';
+        // $scope.sortorder = '-upVoteCount';
     $scope.course = {
             name: "AngularJs Course",
             id: 1,
@@ -17,7 +26,7 @@ courseApp.controller('CourseController',
                 {
                     name: 'Directives Masterclass',
                     creatorName: 'Bob Smith',
-                    duration: '1 hr',
+                    duration: 1,
                     level: 'Advanced',
                     abstract: 'In this session you will learn the ins and outs of directives!',
                     upVoteCount: 0
@@ -25,7 +34,7 @@ courseApp.controller('CourseController',
                 {
                     name: 'Scopes for fun and projects',
                     creatorName: 'John Doe',
-                    duration: '30 mins',
+                    duration: 2,
                     level: 'Introductory',
                     abstract: 'This session will take a closer look at scopes!',
                     upVoteCount: 0
@@ -33,7 +42,7 @@ courseApp.controller('CourseController',
                 {
                     name: 'Well Behaved Controllers',
                     creatorName: 'Ami Amigo',
-                    duration: '2 hours',
+                    duration: 4,
                     level: 'Intermediate',
                     abstract: 'Controllers are the beginning of everything Angular!',
                     upVoteCount: 0
